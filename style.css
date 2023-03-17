@@ -1,0 +1,41 @@
+.editor {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #fff;
+  }
+  .toolbar {
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+  button {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  button:hover {
+    background-color: #ccc;
+  }
+  .content {
+    min-height: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+  }
+  .name {
+    min-height: 10px;
+    width: 40%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+  }
+  body{
+    background-image: url("min01.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  

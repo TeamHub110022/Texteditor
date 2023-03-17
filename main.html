@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="editor">
+      <div class="toolbar">
+        <button onclick="bold()"><b>B</b></button>
+        <button onclick="italic()"><i>I</i></button>
+        <button onclick="underline()"><u>U</u></button>
+        <button onclick="fontSize('5')"><span style="font-size: 18px">H1</span></button>
+        <button onclick="fontSize('4')"><span style="font-size: 16px">H2</span></button>
+        <button onclick="fontSize('3')"><span style="font-size: 14px">H3</span></button>
+        <button onclick="fontSize('2')"><span style="font-size: 12px">H4</span></button>
+        <button onclick="fontColor('#00ff00')"><span style="color: #000000">Green</span></button>
+        <button onclick="fontColor('#ff0000')"><span style="color: #000000">Red</span></button>
+        <button onclick="fontColor('#000000')"><span style="color: #000000">Black</span></button>
+        <button onclick="textAlign('left')"><span style="text-align: left">Left</span></button>
+        <button onclick="textAlign('center')"><span style="text-align: center">Center</span></button>
+        <button onclick="textAlign('right')"><span style="text-align: right">Right</span></button>
+        <button onclick="saveFile()">Save</button>
+        <button onclick="loadFile()">Load</button>
+      </div>
+      <div class="name" id="filename" contenteditable="true" >Type file name here</div>
+      <br/>
+      <div class="content" id="filecontent" contenteditable="true">Type file content here</div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
